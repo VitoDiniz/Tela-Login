@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #img {
+        margin-left: 15vh;
+        width: 75%;
+    }
+
+    input[type='submit'] {
+        font-weight: 700;
+        width: 210px;
+    }
+
+    input[type="email"] {
+        font-weight: 700;
+        height: 35px;
+        width: 280px;
+    }
+
+    input[type="password"] {
+        font-weight: 700;
+        height: 35px;
+        width: 280px;
+    }
+    
+    .campo {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 950px;
+    }
+
+    #img {  
+        float: right;
+        width: 50%;
+        height: auto;
+    }
+
+    div#formulario {
+        margin-top: 15vh;
+        float: left;
+        width: 50%;
+    }
+
+    div#telaLogin {
+        position: relative;
+        bottom: 30px;
+    }
+
+    input[type='submit'] {
+        font-weight: 700;
+        width: 200px;
+    }
+
+    input[type="email"] {
+        display: inline;
+        font-weight: 700;
+        height: 30px;
+        width: 280px;
+    }
+
+    input[type="password"] {
+        font-weight: 700;
+        height: 30px;
+        width: 280px;
+    }
+}

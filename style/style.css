@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #1B1959, #66B1F2, #1B1959) no-repeat;
+}
+
+main {
+    position: relative;
+    width: vw;
+    height: 100vh;
+}
+
+div#telaLogin {
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    width: 205px;
+    height: 50px;
+    background-color: #0b529194;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 800;
+}
+
+input[type="email"]::placeholder {
+    text-align: center;
+}
+
+input[type="password"]::placeholder {
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    box-shadow: #0b5291d6 0px 0px 15px;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 85vw;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+
+#img {
+    transform: translate(0px, 50px);
+    justify-content: center;
+    align-content: center;
+}
+
+div#formulario {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: 1em;
+}
+
+div#formulario h1 {
+    font-size: 800;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+input {
+    margin: 10px;
+}
+
+input#iiconEmail {
+    height: 30px;
+    width: 200px;
+}
+
+input#iiconPass {
+    height: 30px;
+    width: 200px;
+}
+
+hr {
+    margin: 20px;
+}
+
+span {
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+    transform: translate(5px);
+}
